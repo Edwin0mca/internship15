@@ -15,7 +15,7 @@ def click(value):
         elif value=='√':
             answer=math.sqrt(eval(ex))
         elif value=='π':
-            answer=math.sqrt(eval(ex))
+            answer=math.pi(eval(ex))
         elif value =='cosθ':
             answer=math.cos(math.radians(eval(ex)))
         elif value =='sinθ':
@@ -88,3 +88,4 @@ for i in button_text_list:
         rowvalue+=1
         columnvalue=0
 root.mainloop()
+
