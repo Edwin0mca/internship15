@@ -54,7 +54,7 @@ def click(value):
             entryField.insert(END,"/")
             return
         elif value=='=':
-            eval(ex)
+            answer=eval(ex)
         
         else:
             entryField.insert(END,value)
@@ -88,4 +88,5 @@ for i in button_text_list:
         rowvalue+=1
         columnvalue=0
 root.mainloop()
+
 
